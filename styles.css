@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    float: right;
+    background-color: #1F2937;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #E5E7Eb;
+    font-size: 24;
+}
+.header {
+    background-color: #1F2937;
+    padding: 15px;
+}
+.eh{
+    margin-top: 0px;
+    padding: 15px;
+   
+    background-color: #1F2937;
+    
+}
