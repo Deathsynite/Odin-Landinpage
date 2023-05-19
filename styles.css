@@ -6,6 +6,7 @@ nav {
     display: flex;
     float: right;
     background-color: #1F2937;
+    margin-right: 120px;
 }
 li{
     list-style: none;
@@ -14,14 +15,84 @@ li{
     color: #E5E7Eb;
     font-size: 24;
 }
+.side-img {
+    width: 400px;
+    height: 250px;
+}
 .header {
     background-color: #1F2937;
     padding: 15px;
 }
 .eh{
+    display: flex;
+    justify-content: space-between;
     margin-top: 0px;
-    padding: 15px;
-   
+    padding: 15px 150px;
     background-color: #1F2937;
     
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.square {
+    width: 200px;
+    height: 150px;
+
+    border: 2px solid #3882F6;
+}
+.call {
+    margin: 25px auto 25px auto;
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 450px;
+}
+.quote h3 {
+    align-self: flex-end;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+#btn1 {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 5%;
+    padding: 5px 15px;
+}
+#btn2 {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 5px 15px;
+}
+.top {
+    width: 100px;
+    height: 15px;
+    margin-left: 135px;
 }
