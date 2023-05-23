@@ -1,57 +1,67 @@
+css
+/* Set default margin and padding to 0 for body element */
 body {
     padding: 0;
     margin: 0;
 }
+ /* Style for navigation bar */
 nav {
     display: flex;
     float: right;
     background-color: #1F2937;
     margin-right: 120px;
 }
-li{
+ /* Style for navigation bar list items */
+li {
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
     color: #E5E7Eb;
     font-size: 24;
 }
+ /* Style for side image */
 .side-img {
     width: 400px;
     height: 250px;
 }
+ /* Header style */
 .header {
     background-color: #1F2937;
     padding: 15px;
 }
-.eh{
+ /* Style for element with class "eh" */
+.eh {
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
     padding: 15px 150px;
     background-color: #1F2937;
-    
 }
+ /* Style for boxes */
 .boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+ /* Style for box1 */
 .box1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.box{
+ /* Style for individual box */
+.box {
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
 }
+ /* Style for square element */
 .square {
     width: 200px;
     height: 150px;
-
     border: 2px solid #3882F6;
 }
+ /* Call-to-action section style */
 .call {
     margin: 25px auto 25px auto;
     width: 800px;
@@ -61,6 +71,7 @@ li{
     justify-content: space-around;
     align-items: center;
 }
+ /* Style for quote section */
 .quote {
     background-color: #E5E7Eb;
     display: flex;
@@ -69,14 +80,17 @@ li{
     justify-content: center;
     padding: 25px 450px;
 }
+ /* Style for quote header */
 .quote h3 {
     align-self: flex-end;
 }
+ /* Style for footer section */
 footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
 }
+ /* Style for button with id "btn1" */
 #btn1 {
     background-color: #3882F6;
     color: white;
@@ -84,6 +98,7 @@ footer {
     border-radius: 5%;
     padding: 5px 15px;
 }
+ /* Style for button with id "btn2" */
 #btn2 {
     background-color: #3882F6;
     color: white;
@@ -91,6 +106,7 @@ footer {
     border-radius: 5%;
     padding: 5px 15px;
 }
+ /* Style for top element */
 .top {
     width: 100px;
     height: 15px;
